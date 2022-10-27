@@ -6,7 +6,12 @@ Commencez par cloner le dépôt:
         
 Les TPs se font via des notebooks Jupyter, c'est-à-dire des applications Web où l'on peut exécuter du code Python. 
 
-## Utilisation d'un environnement virtuel sur les machines de l'ENSEIRB
+Suivez l'option ci-dessous qui correspond à votre cas de figure. On recommande d'utiliser un environnement virtuel:
+1. [Environnement virtuel sur les machines de l'ENSEIRB](#enseirb)
+2. [Environnement virtuel sur vos machines perso](#perso)
+3. [Sans environnement virtuel](#novirtual)
+
+## 1. <a name="enseirb"></a> Utilisation d'un environnement virtuel sur les machines de l'ENSEIRB
 
 1. Activation de l'environnement virtuel
         
@@ -22,7 +27,7 @@ A ce stade, vous devriez voir votre ligne de terminal être préfixée par (tp-i
 
         jupyter notebook
         
-4. Après l'exécution de la commande précédent, copier/coller l'adresse renvoyée dans votre navigateur préféré. L'url est de la forme 127.0.0.1:8888 suivi du token d'authentification.
+4. Après l'exécution de la commande précédente, copier/coller l'adresse renvoyée dans votre navigateur préféré. L'url est de la forme 127.0.0.1:8888 suivi du token d'authentification.
 
 Vous pouvez désormais exécuter le code Python dans votre navigateur. 
 
@@ -31,7 +36,7 @@ Vous pouvez désormais exécuter le code Python dans votre navigateur.
 6. Sélectionner le kernel créé à l'étape 4. Dans le menu Kernel > Change kernel > venv.
 
         
-## Utilisation d'un environnement virtuel (recommandé)
+## 2. <a name="perso"></a> Utilisation d'un environnement virtuel sur vos machines perso 
 
 1. Création d'un environnement virtuel
 
@@ -55,7 +60,7 @@ A ce stade, vous devriez voir votre ligne de terminal être préfixée par (venv
 
         jupyter notebook
         
-6. Après l'exécution de la commande précédent, copier/coller l'adresse renvoyée dans votre navigateur préféré. L'url est de la forme 127.0.0.1:8888 suivi du token d'authentification.
+6. Après l'exécution de la commande précédente, copier/coller l'adresse renvoyée dans votre navigateur préféré. L'url est de la forme 127.0.0.1:8888 suivi du token d'authentification.
 
 Vous pouvez désormais exécuter le code Python dans votre navigateur. 
 
@@ -63,7 +68,7 @@ Vous pouvez désormais exécuter le code Python dans votre navigateur.
 
 8. Sélectionner le kernel créé à l'étape 4. Dans le menu Kernel > Change kernel > venv.
 
-## Sans environnement virtuel (plus court)
+## 3. <a name="novirtual"></a> Sans environnement virtuel sur vos machines perso (plus court)
 
 1. Installation des dépendances
 
@@ -73,6 +78,6 @@ Vous pouvez désormais exécuter le code Python dans votre navigateur.
 
         jupyter notebook
         
-3. Après l'exécution de la commande précédent, copier/coller l'adresse renvoyée dans votre navigateur préféré. L'url est de la forme 127.0.0.1:8888 suivi du token d'authentification.
+3. Après l'exécution de la commande précédente, copier/coller l'adresse renvoyée dans votre navigateur préféré. L'url est de la forme 127.0.0.1:8888 suivi du token d'authentification.
 
 Vous pouvez désormais exécuter le code Python dans votre navigateur. 
