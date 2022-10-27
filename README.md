@@ -15,7 +15,7 @@ Suivez l'option ci-dessous qui correspond à votre cas de figure. On recommande 
 
 1. Activation de l'environnement virtuel
         
-        source ~mclement007/tp-image/bin/activate
+        source ~xxxxxxxxx/tp-image/bin/activate
         
 A ce stade, vous devriez voir votre ligne de terminal être préfixée par (tp-image).
 
